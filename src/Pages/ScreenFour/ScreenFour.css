@@ -22,11 +22,15 @@
     color: white;
     width: 100%;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 20px;
     height: 120px;
     text-align: center
 }
 
 .ScreenFour .btn-two {
     margin-right: 5px;
+}
+
+.ScreenFour .btn-diabled {
+    background-color: #4da24d;
 }

@@ -7,6 +7,10 @@ import "./ScreenSix.css";
 class ScreenSix extends Component {
     state = {};
 
+    onButtonClick = () => {
+        window.location.pathname = "/ScreenSeven";
+    }
+
     render() {
         return (
             <div className="ScreenSix">
@@ -22,12 +26,12 @@ class ScreenSix extends Component {
                 </p>
 
                 <div className="button_container">
-                    <button>Face to Face</button>
-                    <button>Phone</button>
-                    <button>Skype</button>
+                    <button onClick={this.onButtonClick}>Face to Face</button>
+                    <button onClick={this.onButtonClick}>Phone</button>
+                    <button onClick={this.onButtonClick}>Skype</button>
                 </div>
                 <div className="button_container">
-                    <button className="bottom_big_button">
+                    <button onClick={this.onButtonClick} className="bottom_big_button">
                         Talk to an adviser now
                     </button>
                 </div>

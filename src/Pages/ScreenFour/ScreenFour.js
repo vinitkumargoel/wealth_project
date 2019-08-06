@@ -1,6 +1,4 @@
-import React, {
-    Component
-} from 'react';
+import React, { Component } from 'react';
 
 import "./ScreenFour.css";
 class ScreenFour extends Component {
@@ -21,15 +19,15 @@ class ScreenFour extends Component {
 
                 <div >
                     <div className="button_container">
-                        <button className="btn btn-one">
+                        <button onClick={() => window.location.pathname = "/ScreenFive"} className="btn btn-one">
                             Schroders Personal Wealth
-                    </button>
+                        </button>
                     </div>
                     <div className="button_container">
-                        <button className="btn btn-two">
+                        <button className="btn btn-two btn-diabled" disabled>
                             Share Dealing
                     </button>
-                        <button className="btn btn-three">
+                        <button className="btn btn-three btn-diabled" disabled>
                             Ready-made Investments
                     </button>
                     </div>

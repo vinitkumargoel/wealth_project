@@ -8,11 +8,14 @@ import { faHome, faLayerGroup, faHandshake, faQuestionCircle, faBars } from '@fo
 
 class Footer extends Component {
     state = {};
+    onHomeClick = () => {
+        window.location.pathname = "/ScreenOne";
+    }
     render() {
         return (
             <div>
                 <div className="style">
-                    <div className="selected_icon">
+                    <div className="selected_icon" onClick={this.onHomeClick}>
                         <i><FontAwesomeIcon icon={faHome} /></i>
                         <p>Home</p>
                     </div>
@@ -21,7 +24,7 @@ class Footer extends Component {
                         <p>Products</p>
                     </div>
                     <div>
-                       <i> <FontAwesomeIcon icon={faHandshake} /></i>
+                        <i> <FontAwesomeIcon icon={faHandshake} /></i>
                         <p>Pay & Transfer</p>
                     </div>
                     <div>

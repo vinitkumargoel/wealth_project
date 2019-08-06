@@ -18,7 +18,7 @@ class ScreenSeven extends Component {
                 </p>
                 <img src={Calender} />
                 <center>
-                    <button>Confirm</button>
+                    <button onClick={() => window.location.pathname = "/ScreenEight"}>Confirm</button>
                 </center>
             </div>
         );

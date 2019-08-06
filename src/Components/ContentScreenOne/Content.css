@@ -30,8 +30,24 @@
     min-height: 20px;
     background-color: white;
     border-top: 1px dashed lightgray;
+    padding: 10px;
+    text-align: right;
+    padding-right: 20px;
 }
 
 .content-container i {
     padding-right: 20px;
+}
+
+.content-container .clickable {
+    padding-right: 20px;
+}
+
+.content-container button {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.content-container button:hover {
+    text-decoration: underline;
 }

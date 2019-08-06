@@ -16,16 +16,35 @@
     display: flex;
     margin-top: 4%;
 }
+
 .ScreenFive .button_container p {
-    font-size:12px;
-    margin:0;
+    font-size: 12px;
+    margin: 0;
     padding-left: 18px;
     line-height: 15px;
 }
-.ScreenFive .button-wrapper{
-    flex:1
+
+.ScreenFive .button-wrapper {
+    flex: 1
 }
+
 .ScreenFive .btn {
+    background-color: white;
+    color: darkgreen;
+    font-weight: bold;
+    width: 100%;
+    font-size: 18px;
+    height: 70px;
+    text-align: center
+}
+
+.ScreenFive .buttonContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+}
+
+.ScreenFive .btn-active {
     background-color: darkgreen;
     color: white;
     font-weight: bold;
@@ -33,9 +52,4 @@
     font-size: 18px;
     height: 70px;
     text-align: center
-}
-.ScreenFive .buttonContent{
-    display: flex;
-    flex-direction: column;
-    margin-top: 13%;
 }

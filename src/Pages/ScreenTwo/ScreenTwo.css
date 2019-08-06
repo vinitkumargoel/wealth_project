@@ -3,3 +3,12 @@
     padding: 20px;
     margin-bottom: 100px;
 }
+
+.ScreenTwo button {
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    padding: 11px;
+    margin-top: 10px;
+    text-align: center;
+}

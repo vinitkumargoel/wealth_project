@@ -13,13 +13,24 @@
     line-height: 25px
 }
 
-.ScreenThree button {
+.ScreenThree .btn-active {
     height: 28px;
     padding: 20px;
     margin-bottom: 5px;
     font-size: 15px;
     background-color: darkgreen;
     color: white;
+    line-height: 0px;
+    display: block;
+}
+
+.ScreenThree .btn {
+    height: 28px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background-color: white;
+    color: darkgreen;
     line-height: 0px;
     display: block;
 }

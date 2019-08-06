@@ -3,18 +3,24 @@ import React, {
 } from 'react';
 import "./Overdraft.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
 class Overdraft extends Component {
-    state = {};
-
+    state = {
+        show: true
+    };
+    onButtonClick = () => {
+        this.setState({ show: false })
+    }
     render() {
         return (
-            <div className="overdraft-container">
-            <span>YOUR OVERDRAFT OPTIONS</span>
-            <div className="overdraft-icon">
-            <i ><FontAwesomeIcon icon={faAngleRight} /></i>
-            </div>
-            </div>
+            <>
+                {this.state.show ? <div className="overdraft-container">
+                    <span>YOUR OPTIONS</span>
+                    <div className="overdraft-icon">
+                        <button onClick={this.onButtonClick}><i><FontAwesomeIcon icon={faTimes} /></i></button>
+                    </div>
+                </div> : null}
+            </>
         );
     }
 }
