@@ -1,5 +1,6 @@
 .ScreenThree {
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .ScreenThree h3 {
@@ -15,6 +16,7 @@
 .ScreenThree button {
     height: 28px;
     padding: 20px;
+    margin-bottom: 5px;
     font-size: 15px;
     background-color: darkgreen;
     color: white;

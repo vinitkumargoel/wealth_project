@@ -9,9 +9,9 @@ class ScreenTwo extends Component {
 
     render() {
         return (
-            <div className="screen2">
-            <ImageComponent/>
-            <FAComponent/>
+            <div className="ScreenTwo">
+                <ImageComponent />
+                <FAComponent />
             </div>
         );
     }
