@@ -1,0 +1,4 @@
+.screen-one-container{
+    display:flex;
+    flex-direction: column;
+}

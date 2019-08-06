@@ -1,0 +1,43 @@
+.card-container{
+    display:flex;
+    background: white;
+    margin-top:10px;
+    min-height:150px;
+    flex-direction: column;
+}
+.data-container{
+    padding:10px;
+    display:flex;
+    flex:50%;
+}
+.details-container{
+    display:flex;
+    flex-direction:column;
+    padding-left:10px;
+}
+.money-container{
+    flex:50%;
+    padding-left:60px;
+    display:flex;
+    flex-direction: column;
+}
+.details-item-name{
+    color:darkgreen;
+    font-weight:600;
+    font-size:14px;
+}
+.details-item-numbers{
+    font-weight:400;
+    font-size:12px;
+    padding-top:8px;
+}
+.dot-icon-main{
+    margin-left: 180px;
+}
+.dot-icon{
+    color:darkgreen;
+}
+.pound-icon{
+    color:darkgray;;
+    font-size:22px;
+}
