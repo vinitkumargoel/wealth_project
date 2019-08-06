@@ -10,16 +10,16 @@ class ScreenThree extends Component {
         return (
             <div className="ScreenThree">
                 <h3>Understand Your Risk Appetite</h3>
-                <p>Would you be confortable investing for at least 5 Years?</p>
+                <p>Would you be comfortable investing for at least 5 Years?</p>
 
-                <button>Yes, Confortable</button>
+                <button>Yes, Comfortable</button>
                 <button>Perhaps for some of my money</button>
-                <button>No, not Confortable</button>
+                <button>No, not Comfortable</button>
 
-                <p>Are you confortable with the liklihood that your money will raise and fall in value?</p>
-                <button>Yes, Confortable</button>
+                <p>Are you comfortable with the likelihood that your money will rise and fall in value?</p>
+                <button>Yes, Comfortable</button>
                 <button>Perhaps for some of my money</button>
-                <button>No, not Confortable</button>
+                <button>No, not Comfortable</button>
             </div>
         );
     }

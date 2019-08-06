@@ -9,20 +9,20 @@ class ScreenFour extends Component {
     render() {
         return (
             <div className="ScreenFour">
-                <h3>Great News!</h3>
+                <h3>Good News!</h3>
                 <p>
                     From the answers you've provided and the activity we see in your accounts,
-                    you're eligible for schroders Personal Wealth. Click Bellow to find out more.
+                    you're eligible for schroders Personal Wealth. Click Below to find out more.
                 </p>
                 <p>
-                    Alternativly we have highlighted some of our other products that can make your
+                    Alternatively we have highlighted some of our other products that can make your
                     money work harder.
                 </p>
 
                 <div >
                     <div className="button_container">
                         <button className="btn btn-one">
-                            Schroders Personl Wealth
+                            Schroders Personal Wealth
                     </button>
                     </div>
                     <div className="button_container">

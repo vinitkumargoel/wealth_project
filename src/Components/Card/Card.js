@@ -27,7 +27,7 @@ class Card extends Component {
                 </div>
                 {this.props.number===1 || path==="/ScreenOne"?<div className="money-container">
                     <div><span className="pound-icon">{this.props.number===1?"£648.36":"£12.18"}</span></div>
-                    <div><span className="pound-icon">Available: </span><span className="pound-icon">£1023.76</span></div>
+                    <div><span className="available">Available: </span><span className="available">£1023.76</span></div>
                 </div>:null}
                 {this.props.number===2 && path==="/ScreenNine"?<i><FontAwesomeIcon icon={faAngleRight} className="angle-right-content" /></i>:null}
             </div>
