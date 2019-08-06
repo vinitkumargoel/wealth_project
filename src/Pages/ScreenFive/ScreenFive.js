@@ -20,7 +20,7 @@ class ScreenFive extends Component {
                 <p>
                     Before we can arrange your appointment,
                     can you confirm that you are happy that your relevant personal
-                    information hƒeld across Lloyds Banking Group can be shared with Schroders Personal Wealth.
+                    information held across Lloyds Banking Group can be shared with Schroders Personal Wealth.
                 </p>
                 <p>
                     This is so that your Personal Wealth Adviser can get a better idea about your individual needs.
