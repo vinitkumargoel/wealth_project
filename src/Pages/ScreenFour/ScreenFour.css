@@ -1,0 +1,26 @@
+.ScreenFour {
+    padding: 20px;
+}
+
+.ScreenFour h3 {
+    font-size: 28px;
+    margin: 0px
+}
+
+.ScreenFour p {
+    font-size: 18px;
+    line-height: 25px
+}
+
+.ScreenFour .button_container {
+    display: flex;
+}
+
+.ScreenFour .btn {
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    height: 120px;
+    text-align: center
+}
