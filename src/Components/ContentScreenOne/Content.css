@@ -1,0 +1,28 @@
+.screen-one-container .content-container{
+    background-color: white;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+}
+.screen-one-container .data-container{
+    display:flex;
+}
+.screen-one-container .header-span{
+    font-weight:600;
+    font-size: 22px;
+    color:darkgreen;
+}
+.screen-one-container .content-div{
+    padding-right: 50px;
+    padding-left:8px;
+}
+.screen-one-container .angle-right{
+    float:right;
+    color:darkgreen;
+    height:40px;
+}
+.screen-one-container .border-container{
+    min-height:20px;
+    background-color: white;
+    border-top:1px dashed lightgray;
+}
