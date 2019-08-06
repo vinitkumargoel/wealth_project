@@ -8,6 +8,8 @@ import ScreenFour from "./Pages/ScreenFour/ScreenFour";
 import ScreenFive from "./Pages/ScreenFive/ScreenFive";
 import ScreenSix from "./Pages/ScreenSix/ScreenSix";
 import ScreenSeven from "./Pages/ScreenSeven/ScreenSeven";
+import ScreenEight from "./Pages/ScreenEight/ScreenEight";
+import ScreenNine from "./Pages/ScreenNine/ScreenNine";
 
 import Header from "./Components/Header/Header"
 import Footer from "./Components/Footer/Footer"
@@ -25,6 +27,8 @@ function BasicExample() {
                 <Route path="/ScreenFive" component={ScreenFive} />
                 <Route path="/ScreenSix" component={ScreenSix} />
                 <Route path="/ScreenSeven" component={ScreenSeven} />
+                <Route path="/ScreenEight" component={ScreenEight} />
+                <Route path="/ScreenNine" component={ScreenNine} />
             </Router>
             <Footer />
         </div>
