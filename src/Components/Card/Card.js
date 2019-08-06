@@ -9,20 +9,26 @@ class Card extends Component {
     state = {};
 
     render() {
+        const path=this.props.path;
         return (
             <div className="card-container">
                 <div className="data-container">
                     <img src={LBGicon} width="40px" height="30px" />
                     <div className="details-container">
-                        <span className="details-item-name">Club Platinum</span>
-                        <span className="details-item-numbers">30-99-80 24773768</span>
+                    {path==="/ScreenOne"?<span className="details-item-name">Club Platinum</span>:
+                    path==="/ScreenNine" && this.props.number===1?<span className="details-item-name">Club Platinum</span>:<span className="details-item-name">Scroders Personal Wealth</span>
+        
+                }
+                        {path==="/ScreenOne"?<span className="details-item-numbers">30-99-80 24773768</span>:
+                        path==="/ScreenNine" && this.props.number===1?<span className="details-item-numbers">30-99-80 24773768</span>:
+                        <span className="content-div main-div">Click below to see your Scrodners Personal Wealth Plan</span>}
                     </div>
                     <i className="dot-icon-main"><FontAwesomeIcon icon={faEllipsisV} className="dot-icon" /></i>
                 </div>
-                <div className="money-container">
+                {this.props.number===1 || path==="/ScreenOne"?<div className="money-container">
                     <div><span className="pound-icon">£648.36</span></div>
                     <div><span className="pound-icon">Available: </span><span className="pound-icon">£1023.76</span></div>
-                </div>
+                </div>:null}
 
             </div>
         );

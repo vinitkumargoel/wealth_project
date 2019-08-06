@@ -7,15 +7,23 @@ import Content from '../../Components/ContentScreenOne/Content';
 
 import "./ScreenOne.css";
 class ScreenOne extends Component {
-    state = {};
+    constructor(props){
+        super(props);
+        this.state={
+
+        }
+    }
+
 
     render() {
+        console.log(this.props.match.path)
+        const path=this.props.match.path
         return (
             <div className="ScreenOne">
-            <Card />
+            <Card path={path} number={1}/>
             <Overdraft />
-            <Content />
-            <Card />
+            <Content path={path}/>
+           <Card path={path} number={2}/>
             </div>
         );
     }

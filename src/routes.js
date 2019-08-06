@@ -28,7 +28,7 @@ function BasicExample() {
                 <Route path="/ScreenSix" component={ScreenSix} />
                 <Route path="/ScreenSeven" component={ScreenSeven} />
                 <Route path="/ScreenEight" component={ScreenEight} />
-                <Route path="/ScreenNine" component={ScreenNine} />
+                <Route path="/ScreenNine" component={ScreenOne} />
             </Router>
             <Footer />
         </div>
