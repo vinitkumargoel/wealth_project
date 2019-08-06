@@ -1,13 +1,20 @@
 import React, {
     Component
 } from 'react';
-
+import Card from "../../Components/Card/Card"
+import Overdraft from '../../Components/OverDraft/Overdraft';
+import Content from '../../Components/ContentScreenOne/Content';
 class ScreenOne extends Component {
     state = {};
 
     render() {
         return (
-            <div>ScreenOne</div>
+            <div className="screen-one-container">
+            <Card />
+            <Overdraft />
+            <Content />
+            <Card />
+            </div>
         );
     }
 }
