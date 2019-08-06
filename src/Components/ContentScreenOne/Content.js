@@ -11,16 +11,16 @@ class Content extends Component {
     render() {
         return (
             <div className="content-container">
-            <div className="data-container">
-            <span className="header-span">John,we can help you make your money work harder</span>
-            <img src={Home} width="40px" height="40px"  />
+                <div className="data-container">
+                    <span className="header-span">John,we can help you make your money work harder</span>
+                    <img src={Home} width="40px" height="40px" />
+                </div>
+                <div className="content-div">
+                    Scroders Personal Wealth can provide you with expert financial planning.
+                    If it's not for you,we can point you towards other ways to make your money work harder
             </div>
-            <div className="content-div">
-                Scroders Personal Wealth can provide you with expert financial planning.
-                If it's not for you,we can point you towards other ways to make your money work harder
-            </div>
-            <i ><FontAwesomeIcon icon={faAngleRight} className="angle-right"/></i>
-            <div className="border-container"></div>
+                <i><FontAwesomeIcon icon={faAngleRight} className="angle-right" /></i>
+                <div className="border-container"></div>
             </div>
         );
     }

@@ -1,4 +1,6 @@
-.screen-one-container{
-    display:flex;
+.ScreenOne {
+    display: flex;
+    margin-bottom: 100px;
     flex-direction: column;
+    background-color: lightgray;
 }

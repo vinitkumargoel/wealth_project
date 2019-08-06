@@ -4,12 +4,14 @@ import React, {
 import Card from "../../Components/Card/Card"
 import Overdraft from '../../Components/OverDraft/Overdraft';
 import Content from '../../Components/ContentScreenOne/Content';
+
+import "./ScreenOne.css";
 class ScreenOne extends Component {
     state = {};
 
     render() {
         return (
-            <div className="screen-one-container">
+            <div className="ScreenOne">
             <Card />
             <Overdraft />
             <Content />

@@ -1,28 +1,37 @@
-.screen-one-container .content-container{
+.ScreenOne .content-container {
     background-color: white;
-    margin:10px;
-    display:flex;
+    margin: 10px;
+    display: flex;
     flex-direction: column;
 }
-.screen-one-container .data-container{
-    display:flex;
+
+.ScreenOne .data-container {
+    display: flex;
 }
-.screen-one-container .header-span{
-    font-weight:600;
+
+.ScreenOne .header-span {
+    font-weight: 600;
     font-size: 22px;
-    color:darkgreen;
+    color: darkgreen;
 }
-.screen-one-container .content-div{
+
+.ScreenOne .content-div {
     padding-right: 50px;
-    padding-left:8px;
+    padding-left: 20px;
 }
-.screen-one-container .angle-right{
-    float:right;
-    color:darkgreen;
-    height:40px;
+
+.ScreenOne .angle-right {
+    float: right;
+    color: darkgreen;
+    height: 40px;
 }
-.screen-one-container .border-container{
-    min-height:20px;
+
+.ScreenOne .border-container {
+    min-height: 20px;
     background-color: white;
-    border-top:1px dashed lightgray;
+    border-top: 1px dashed lightgray;
+}
+
+.content-container i {
+    padding-right: 20px;
 }
