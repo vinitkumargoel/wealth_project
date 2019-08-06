@@ -9,18 +9,25 @@ import ScreenFive from "./Pages/ScreenFive/ScreenFive";
 import ScreenSix from "./Pages/ScreenSix/ScreenSix";
 import ScreenSeven from "./Pages/ScreenSeven/ScreenSeven";
 
+import Header from "./Components/Header/Header"
+import Footer from "./Components/Footer/Footer"
+
+
 function BasicExample() {
     return (
-        <Router>
-            <Route path="/ScreenOne" component={ScreenOne} />
-            <Route path="/ScreenTwo" component={ScreenTwo} />
-            <Route path="/ScreenThree" component={ScreenThree} />
-            <Route path="/ScreenFour" component={ScreenFour} />
-            <Route path="/ScreenFive" component={ScreenFive} />
-            <Route path="/ScreenSix" component={ScreenSix} />
-            <Route path="/ScreenSeven" component={ScreenSeven} />
-
-        </Router>
+        <div>
+            <Header />
+            <Router>
+                <Route path="/ScreenOne" component={ScreenOne} />
+                <Route path="/ScreenTwo" component={ScreenTwo} />
+                <Route path="/ScreenThree" component={ScreenThree} />
+                <Route path="/ScreenFour" component={ScreenFour} />
+                <Route path="/ScreenFive" component={ScreenFive} />
+                <Route path="/ScreenSix" component={ScreenSix} />
+                <Route path="/ScreenSeven" component={ScreenSeven} />
+            </Router>
+            <Footer />
+        </div>
     );
 }
 
