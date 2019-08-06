@@ -1,0 +1,41 @@
+.ScreenFive {
+    padding: 20px;
+}
+
+.ScreenFive h3 {
+    font-size: 24px;
+    margin: 0px
+}
+
+.ScreenFive p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ScreenFive .button_container {
+    display: flex;
+    margin-top: 4%;
+}
+.ScreenFive .button_container p {
+    font-size:12px;
+    margin:0;
+    padding-left: 18px;
+    line-height: 15px;
+}
+.ScreenFive .button-wrapper{
+    flex:1
+}
+.ScreenFive .btn {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    font-size: 18px;
+    height: 70px;
+    text-align: center
+}
+.ScreenFive .buttonContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+}
