@@ -1,0 +1,23 @@
+.ScreenThree {
+    padding: 20px;
+}
+
+.ScreenThree h3 {
+    font-size: 28px;
+    margin: 0px
+}
+
+.ScreenThree p {
+    font-size: 18px;
+    line-height: 25px
+}
+
+.ScreenThree button {
+    height: 28px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: darkgreen;
+    color: white;
+    line-height: 0px;
+    display: block;
+}
