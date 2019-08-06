@@ -1,1 +1,20 @@
-.ScreenEight {}
+.ScreenEight {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.ScreenEight h3 {
+    font-size: 25px;
+    margin: 0px
+}
+
+.ScreenEight p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal !important
+}
+
+.ScreenEight img {
+    width: 75%;
+    margin-left: 12%;
+}
